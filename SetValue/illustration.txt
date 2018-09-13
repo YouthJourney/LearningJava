@@ -1,0 +1,17 @@
+1.程序运行结果：
+C:\Users\ASUS\Desktop\JavaProjects>javac Test.java
+
+C:\Users\ASUS\Desktop\JavaProjects>java Test
+Hello World
+Yangtze University
+The address of a is 166239592
+The address of c is 1528637575
+2.说明：
+（1）String是一个引用类型，即变量a和c保存的是对象地址，它指向实际对象。
+基本类型时使用赋值运算符会直接修改其值，原来的值会被覆盖。而对于引用类
+型String，赋值运算符会改变引用中所保存的值，原来的地址会被覆盖。但原来
+的对象不会被改变任然存在。
+可以参考：https://blog.csdn.net/HughGilbert/article/details/54564841 
+（2）求变量的地址  使用 int hashCode = System.identityHashCode(s);
+可以参考：https://bbs.csdn.net/topics/300174433
+

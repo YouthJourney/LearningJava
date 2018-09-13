@@ -1,0 +1,14 @@
+1.运行结果：
+C:\Users\ASUS\Desktop\JavaProjects\PrintStory>javac PrintStory.java
+
+C:\Users\ASUS\Desktop\JavaProjects\PrintStory>java PrintStory
+5 bottles of beer on the wall,4 bottles of beer on the wall.
+4 bottles of beer on the wall,3 bottles of beer on the wall.
+3 bottles of beer on the wall,2 bottles of beer on the wall.
+2 bottles of beer on the wall,1 bottle of beer on the wall.
+1 bottles of beer on the wall,0 bottle of beer on the wall.
+No more bottles of beer on the wall.
+2.说明：
+注意i=1时bottble的单复数；
+注意循环体里面的循环的次数不要写死；
+主要不要连续的使用条件语句。
