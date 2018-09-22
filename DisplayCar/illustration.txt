@@ -1,0 +1,15 @@
+1.运行结果：
+C:\Users\ASUS\Desktop>javac Car.java
+
+C:\Users\ASUS\Desktop>java Car
+请输入汽车的各个属性:
+路虎
+468
+490
+汽车名: 路虎 油箱：468.0 耗油量：490.0
+2.说明：
+（1）建类，建立一个Car类，将汽车的各个属性都包含进来，有两个方法，一个是输入汽车
+各个属性的方法InputCar，另一个是显示汽车各个属性的方法Display。
+（2）输入语句的使用，Java中输入是调用一个类Scanner的对象，如：
+Scanner input=new Scanner(System.in);之后用input这个对象去调用各种类型的输入方法。
+如：int a=input.nextInt(); float b=input.nextFloat; String c=input.nextLine();等。
