@@ -2,13 +2,13 @@ package com.hong.value;
 
 import java.util.ArrayList;
 
-//import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List; ¸Ä°ü×Ô¶¯Ìí¼ÓÎ´Ê¹ÓÃ
+//import com.sun.xml.internal.bind.v2.schemagen.xmlschema.List; æ”¹åŒ…è‡ªåŠ¨æ·»åŠ æœªä½¿ç”¨
 
 public class test {
 	public static void main(String[] args) {
 		java.util.List<Integer> list01=new ArrayList<>(1);
 		@SuppressWarnings("deprecation")
-		Integer integer =new Integer(10);  //¸ß°æ±¾²»ÊÇÕâÖÖĞ´·¨µ«ÈÎÈ»¿ÉÓÃ
+		Integer integer =new Integer(10);  //é«˜ç‰ˆæœ¬ä¸æ˜¯è¿™ç§å†™æ³•ä½†ä»ç„¶å¯ç”¨
 		list01.add(integer);
 		
 		Integer integer1=list01.get(0);
