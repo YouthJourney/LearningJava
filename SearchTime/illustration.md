@@ -1,4 +1,12 @@
 ![](https://i.imgur.com/UYlivwf.png)
+
+
+
+
+
+
+
+
 运行结果：
 100万：
 ArrayList: 插入1000000个元素，使用的时间是：902254ms
