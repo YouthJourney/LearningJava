@@ -1,9 +1,5 @@
 ## 部分代码 ##
 ```java
-	<link href="http://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet">  
-	<script src="http://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>  
-	<script >hljs.initHighlightingOnLoad();</script>  
-	
 	//交通工具抽象类
 	abstract class Transportation{
 		public String transName;  //交通工具名称
